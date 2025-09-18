@@ -1,0 +1,122 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-grow-1 {
+    flex: 1;
+}
+
+.d-col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.pe-15 {
+    padding-right: 15px;
+}
+
+.postbox {
+    padding: 15px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.me-1 {
+    margin-right: 10px;
+}
+
+.tablenav-pages-custom .page-numbers {
+    display: inline-block;
+    vertical-align: baseline;
+    min-width: 20px;
+    min-height: 20px;
+    margin: 0;
+    padding: 0 4px;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    text-decoration: none;
+    color: #2271b1;
+    border: 1px solid;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    border-radius: 2px;
+    margin-left: 5px;
+}
+
+.tablenav-pages-custom .page-numbers.current {
+    color: #a7aaad !important;
+    border-color: #dcdcde !important;
+    background: #f6f7f7 !important;
+    box-shadow: none !important;
+    cursor: default;
+    transform: none !important;
+}
+
+.product-item,
+.selected-product-item{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+
+.product-item img,
+.selected-product-item img{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.product-item span,
+.selected-product-item img{
+    line-height: 30px;
+}
+
+.remove-product{
+    border: 1px solid red !important;
+    color: red !important;
+}
+
+.error{
+    margin-left: 10px;
+    color: red;
+}
+
+.success{
+    margin-left: 10px;
+    color: green;
+}
+
+.cpi-badge{
+    display: inline-block;
+    padding: .35em .65em;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.cpi-pending{
+    background-color: #ffc107 !important;
+}
+
+.cpi-completed{
+    background-color: #28a745 !important;
+}
+
+.cpi-failed{
+    background-color: #dc3545 !important;
+}
+
+.e-notice--dismissible,
+.notice.is-dismissible {
+    display: none !important;
+}
